@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>EARTH</h1></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./img/menu.svg" alt=""></div>
+            </nav>
+            <div class="header-content">
+                <h1>EARTH</h1>
+                <p>ENDLESS POTENTIAL</p>
+                <button class="primary-btn">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+            <img src="./img/service-1.png" alt="">
+            <h1>Web Design</h1>
+            <p>
+                Custom web design for small businesses, we help you capture new 
+                audiences and increase your sale.
+            </p>
+        </div>
+        <div class="service">
+            <img src="./img/service-2.png" alt="">
+            <h1>Web Design</h1>
+            <p>
+                Custom web design for small businesses, we help you capture new 
+                audiences and increase your sale.
+            </p>
+        </div>
+        <div class="service">
+            <img src="./img/service-3.png" alt="">
+            <h1>Content Creation</h1>
+            <p>
+                Custom web design for small businesses, we help you capture new 
+                audiences and increase your sale.
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <div class="about-content">
+            <h1>About</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur libero sunt praesentium pariatur veritatis, nulla quibusdam aut eum ea quod, assumenda illum harum saepe et perferendis, ut aliquid nesciunt.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio optio consequuntur molestias amet nobis maxime, cumque laudantium cupiditate voluptatem eum aut veniam a quibusdam esse ipsum enim dignissimos natus sed?
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="./img/about.png" alt="">
+        </div>
+    </section>
+
+    <section id="talk-to-us">
+        <div class="talk-to-us-content">
+            <h1>TALK TO US</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, error aliquid fugiat delectus beatae minima iusto nesciunt at labore quas quaerat debitis saepe, corrupti, tempora optio quos velit sit quis.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae recusandae dolorem, iusto quod ipsum maiores eius neque corporis nobis voluptatum. Impedit asperiores id, quia laudantium enim expedita quibusdam soluta velit.
+            </p>
+            <button class="primary-btn">GET IN TOUCH</button>
+        </div>
+    </section>
+
+    <footer class="container">
+        <ul class="footerlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">EARTH</h1>
+        <p>02022 Earth. All right reserved.</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function() {
+            navlinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
